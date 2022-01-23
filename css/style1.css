@@ -129,17 +129,16 @@ ul{
 }
 .profile_img
 img{
-	height:119;
+	height:190;
 	margin:0 auto;
-	width:124px;
 	display:block;
-	border:8px solid #2c2f3f;
+	border:4px solid #d8dce3;
 	border-radius:50%!important;
 }
 .profile_img
 h1{
 	color:#040b14;
-	font-family: 'robotolight';
+	font-family: 'Source Sans Pro';
 	font-size:25px;
 	text-align:center;
 	font-weight:bold;
@@ -159,7 +158,7 @@ h1{
 .verticalmenu ul li a {
     color: #040b14;
     text-decoration: none;
-    font-family: 'robotoregular';
+    font-family: 'Source Sans Pro';
     font-size: 16px;
 }
 .verticalmenu ul li a:hover{
@@ -186,8 +185,8 @@ p{
 }
 .rightcontent
 h1{
-	font-family:helvetica, "times new roman", arial;
-    font-size: 22px;
+	font-family:Source Sans Pro, "times new roman", arial;
+    font-size: 32px;
 	font-weight:bold;
 	color:#040b14;
 }
@@ -226,6 +225,23 @@ p{
 	padding-right:10px;
     font-size: 18px;
 }
+.fa.fa-newspaper-o {
+    color: #040b14;
+	padding-right:10px;
+    font-size: 18px;
+}
+.fa.fa-trophy {
+    color: #040b14;
+	padding-right:10px;
+    font-size: 18px;
+}
+
+.fa.fa-university{
+    color: #040b14;
+	padding-right:10px;
+    font-size: 18px;
+}
+
 .fa.fa-user-o {
     color: #040b14;
 	padding-right:10px;
@@ -247,7 +263,7 @@ p{
 }
 .border_b{
 	border-bottom:4px solid #333333;
-	width:8%;
+	width:10%;
 	margin-bottom:12px;
 }
 #present{
