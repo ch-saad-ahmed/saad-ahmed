@@ -5,28 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Saad Ahmed | Postdoctoral Scholar-Northwestern University </title>
     <link rel="icon" type="image/png" href="images/icon.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://kit.fontawesome.com/bb2a5cc23b.js" crossorigin="anonymous"></script>
 </head>
 <!-- Bootstrap -->
 <link href="css/bootstrap1.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <link rel="stylesheet" href="css/style1.css" />
-<link rel="stylesheet" href="css/font-awesome.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- <link rel="stylesheet" href="css/font-awesome.css" /> -->
+<!-- <link rel="stylesheet" href="css/font-awesome.min.css" /> -->
+<link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/simple-lightbox.css" />
 
 <!-- <link rel="stylesheet" href="css/animate.css" />  -->
 <!-- <link rel="stylesheet" href="css/resume.min.css" /> -->
-<!-- <link href="css/stylish-portfolio.min.css" rel="stylesheet"> -->
-<!-- <link rel="stylesheet" href="css/simple-lightbox.css" /> -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
 
 <!-- Bootstrap -->
-<body class = "body" style="background-color=0xFFFFF;">
+<body class = "body">
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
     </a>
@@ -43,7 +45,10 @@
                     <li><a class="page-scroll" href="#home"><i class="fa  fa-home"></i>Home</a></li>
                     <li><a class="page-scroll" href="#about"><i class="fa  fa-newspaper-o"></i>News</a></li>
                     <li><a class="page-scroll" href="#resume"><i class="fa  fa-trophy"></i>Awards</a></li>
+                    <li><a class="page-scroll" href="#resume"><i class="fa  fa-trophy"></i>Services</a></li>
+                    <li><a class="page-scroll" href="#portfolio"><i class="fa  fa-book"></i>Education</a></li>
                     <li><a class="page-scroll" href="#portfolio"><i class="fa  fa-book"></i>Publications</a></li>
+                    <li><a class="page-scroll btn" href="#awards"><i class="fa  fa-trophy"></i>Miscellanous</a></li>
                 </ul>
             </div>
             <div class="socialicns_header col-lg-12 col-xs-12 col-sm-12">
@@ -72,8 +77,11 @@
                     <li><a class="page-scroll btn active" href="#home"><i class="fa  fa-home"></i>Home</a></li>
                     <li><a class="page-scroll btn" href="#news"><i class="fa fa-newspaper-o"></i>News</a></li>
                     <li><a class="page-scroll btn" href="#awards"><i class="fa  fa-trophy"></i>Awards</a></li>
+                    <li><a class="page-scroll btn" href="#awards"><i class="fa  fa-trophy"></i>Services</a></li>
+                    
                     <li><a class="page-scroll btn" href="#edu"><i class="fa  fa-university"></i>Education</a></li>
                     <li><a class="page-scroll btn" href="#pubs"><i class="fa  fa-book"></i>Publications</a></li>
+                    <li><a class="page-scroll btn" href="#awards"><i class="fa  fa-trophy"></i>Miscellanous</a></li>
 
                 </ul>
             </div>
@@ -119,13 +127,25 @@
             <!--section bio-->
         </div>
         <!--left sec-->
-        <div class="left_Sec">
-            <section id="news" class="">
+        <div class="left_Sec" background-color="#007bff" >
+            <section id="news" class="resume-section p-3 p-lg-5 d-flex d-column" >
                 <div class="rightcontent" background-color = "black">
-                    <i class="fa fa-newspaper-o" size="30px"><h1>News</h1></i>
+                    <h1>News<i class="fa fa-newspaper-o fa-5x fa-light "></i></h1>
+
+                    <!-- <i class="fa fa-newspaper-o"></i> -->
                     <div class="border_b"></div>
+                    <div class="news">
+                        <p><strong>(May-2021)</strong><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper on smart face masks accepted in ubicomp</p>
+                        <p><strong>(May-2021)</strong><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper on smart face masks accepted in ubicomp</p>
+                    </div>
+                    <!-- <table class="news">
+                        <tr>
+                          <td><b>(May-2021)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i></td>
+                          <td float="right" >Paper on smart face masks accepted in ubicomp</td>
+                        </tr>
+                    </table> -->
                     <!-- <li><strong>Birthday:</strong> 1 May 1995</li> -->
-                    <p class="news"><b>(Nov-2021)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper on smart face masks accepted in ubicomp</p>
+                    <!-- <p class="news"><b>(Nov-2021)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper on smart face masks accepted in ubicomp</p>
                     <p class="news"><b>(May-2021)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper on IoT retrofits got accepted in TCPS</p>
                     <p class="news"><b>(Mar-2021)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Alexandaer Von Humboldt Postdcotoral scholarship</p>
                     <p class="news"><b>(Dec-2020)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Joined Kamoamoa Lab as a Postdcotoral Reseacher</p>
@@ -139,7 +159,7 @@
                     <p class="news"><b>(Nov-2017)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending IDEA League Doctoral School on Transiently-powered Computing held at TU Delft,The Netherland</p>
                     <p class="news"><b>(Aug-2017)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending Doctoral Colloquim RWTH Aachen</p>
                     <p class="news"><b>(Aug-2016)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending Doctoral Colloquim RWTH Aachen</p>
-                        
+                         -->
                 </div>
                 <!--Bio-->
             </section>
@@ -160,12 +180,37 @@
                 <div class="rightcontent col-lg-12 col-xs-12 col-sm-12">
                     <h1>Awards & Grants</h1>
                     <div class="border_b"></div>
-                    <p class="awards"><b>(2021)</b> Selection for prestigious Alexander Von Humboldt (AvH) Postdcotoral scholarship</p><span>March 2021</span>
-                    <p class="awards"><b>(2020)</b> National Data Center Travel Grant worth \$300 to attend EWSN, LUMS, Pakistan</p>
-                    <p class="awards"><b>(2019)</b> Student Travel Grant worth $1900 to attend LCTES, LUMS</p>
-                    <p class="awards"><b>(2018)</b> CPS Week Travel Grant worth $1000 to attend IPSN, CPS Week</p>
-                    <p class="awards"><b>(2017)</b> Travel Grant worth $1700 to attend Doctoral Colloquium at RWTH Aachen, DAAD, </p>
-                    <p class="awards"><b>(2016)</b> Travel Grant worth $1700 to attend Doctoral Colloquium at RWTH Aachen, DAAD, </p>
+                    <table>
+                        <tr>
+                          <td><i class="fa  fa-trophy"></i>Selection for prestigious Alexander Von Humboldt (AvH) Postdcotoral scholarship</b></td>
+                          <td>(2021)</td>
+                        </tr>
+                        <tr>
+                          <td>National Data Center Travel Grant worth \$300 to attend EWSN, LUMS, Pakistan</td>
+                          <td>(2020)</td>
+                        </tr>
+                        <tr>
+                            <td>Student Travel Grant worth $1900 to attend LCTES, LUMS</td>
+                            <td>(2019)</td>
+                        </tr>
+                        <tr>
+                            <td> CPS Week Travel Grant worth $1000 to attend IPSN, CPS Week</td>
+                            <td>(2018)</td>
+                        </tr>                        
+                        <tr>
+                            <td> Travel Grant worth $1700 to attend Doctoral Colloquium at RWTH Aachen, DAAD,</td>
+                            <td>(2017)</td>
+                        </tr>                          
+                        <tr>
+                            <td> Travel Grant worth $1700 to attend Doctoral Colloquium at RWTH Aachen, DAAD,</td>
+                            <td>(2016)</td>
+                        </tr>                         </table>
+                    <!-- <p class="awards"><b>(2021)</b> </p>
+                    <p class="awards"><b></b> </p>
+                    <p class="awards"><b></b> </p>
+                    <p class="awards"><b></b></p>
+                    <p class="awards"><b>(</b>  </p>
+                    <p class="awards"><b></b>  </p> -->
                     <!-- <p class="awards"><b>(Nov-2019)</b> Best Paper Nominee for "Intermittent Computing with Dynamic Voltage and Frequency Scaling"</p> -->
                     <!-- <p class="news"><b>(Jun-2009)</b> Gold Medal: (High School. Computer Science)</p> -->
                     <!-- <div class="border_b"></div>
@@ -232,17 +277,32 @@
                 <div class="rightcontent col-lg-12 col-xs-12 col-sm-12">
                     <h1 >Education</h1>
                     <div class="border_b"></div>
-                    <div>
-                    <p><b>Ph.D-Computer Science</b></p>
-                    <p>Thesis: Fast and Energy-efficient Computing</p>
-                    <p>Advisor: Dr. Muhammad hamad Alizai</p>
+                    <table>
+                        <tr>
+                          <td>Ph.D-Computer Science</td>
+                          <td>2016-2020</td>
+                        </tr>
+                        <tr>
+                          <td>LUMS- School of Science and Engineering</td>
+                          <td></td>
+                        </tr>
+                      </table>
+                    <!-- <div >
+                            <div class="column-left"><p><b>Ph.D-Computer Science</b></p><p>LUMS- School of Science and Engineering, Pakistan</p><p>Dissertation: Fast and Energy-efficient Computing</p></div>
+                            <div class="column-right">2016-2020</div>
+                    </div> -->
+                    <!-- <p><b>Ph.D-Computer Science</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>2016-2020</span></p>
                     <p>LUMS- School of Science and Engineering, Pakistan</p>
+                    <p>Dissertation: Fast and Energy-efficient Computing</p>
+                    <p>Advisor: Dr. Muhammad hamad Alizai</p>
                     
-                    <p><b>M.S. Computer Science</b></p>
+                    <p><b>M.S. Computer Science</b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>2016-2020</span></p>
                     <p>LUMS- School of Science and Engineering, Pakistan</p>
                 
-                    <p><b>B.S. Computer Science </b><a style="color:red;">Bronze Medal</a></p>
-                    <p>National University of Computer and Emerging Sciences, Pakistan</p>
+                    <p><b>B.S. Computer Science </b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span>2016-2020</span></p>
+                    <p><a style="color:red;">Among Top 2% </a></p>
+                    <p>National University of Computer and Emerging Sciences, Pakistan</p> -->
+                <div>    
                 </div>
                 </div>
                 <!--portfolio text-->
@@ -253,10 +313,25 @@
                     <h1>Selected Publications</h1>
                     <div class="border_b"></div>
                     <div>
-                    <!-- <p><b>Batteryless MakeCode: Accessible Programming for Intermittent Computing</b><span>[Paper][Video][info]</span>
+                        <table>
+                            <tr>
+                              <td><b>Batteryless MakeCode: Accessible Programming for Intermittent Computing</b></td>
+                              <td><a href="">[Paper]</a><a href="">[Video]</a><a href="">[Info]</a></td>
+                            </tr>
+                            <tr>
+                              <td>Chris Kraemer, Amy Guo, <em>Saad Ahmed</em>, Josiah Hester</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                                <td>Ubicomp'22</td>
+                                <td></td>
+
+                            </tr>
+                        </table>
+                    <!-- <p><b>Batteryless MakeCode: Accessible Programming for Intermittent Computing</b><span></span>
                     <p>Chris Kraemer, Amy Guo, <b>Saad Ahmed</b>, Josiah Hester</p>
                     <p>Ubicomp'22</p> -->
-                    <p><b>FaceBit: Smart Facemask Platform</b></p>
+                    <!-- <p><b>FaceBit: Smart Facemask Platform</b></p>
                     <p>Alexander Curtiss, Blaine Rothrock, Abu Bakar, Nivedita Arora, Jason Huang, Zachary Englehardt, Aaron-Patrick Empedrado, Chixiang Wang, <i style="font-style:italic;">Saad Ahmed</i>, Yang Zhang, Nabil Alshurafa, Josiah Hester</p>
                     <p>Ubicomp'22</p>
                     
@@ -270,7 +345,7 @@
                     
                     <p><b>Efficient Intermittent Computing with Differential Checkpointing</b></p>
                     <p><i style="font-style:italic;">Saad Ahmed</i>, Naveed Anwar Bhatti, Muhammad Hamad Alizai, Junaid Haroon Siddiqui, Luca Mottola</p>
-                    <p>LCTES'19</p>
+                    <p>LCTES'19</p> -->
 
                     <a href="https://scholar.google.com/citations?user=pnY2WLsAAAAJ&hl=en">[Full List of Publications]</a>
                     

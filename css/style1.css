@@ -4,66 +4,62 @@
 
 
 /* Customizations*/
-/* 
-.left-pane,.rightcontent{
-    height: 200px;
-    margin: 10px;
-    
-}
-.left-pane{
-    float: right;   
-    width: 30%; 
-}
-.right-pane{
-    float: left;    
-    margin-left: -200px;
-    position: absolute;
-}
-
-.section{
-    height: 100%;
-} */
 font-face {
     font-family: 'Source Sans Pro';
     font-weight: normal;
     font-style: normal;
-
 }
+
+section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}
+section.resume-section .resume-item .resume-date{min-width:none}
+
+@media (min-width: 48em) {
+	.column {
+	  width: 50%;
+	  float:left;
+	}
+	.rows {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+}
+table{
+	min-width: 50em;
+}
+td:nth-child(even){
+	float: right;
+	/* background-color: #007bff; */
+	/* width: 100%; */
+	/* margin-left: 1em; */
+}
+.column-left{
+    float: left;
+    width: 80%;
+  }
+.column-right{
+    float: right;
+    width: 80%;
+}
+.news{
+	line-height: 0px;
+	font-size: medium;
+	font-weight: 300;
+	
+}
+/*   
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ */
+
+
+
+
 /**/
-
-/* @font-face {
-    font-family: 'robotoregular';
-    src: url('../fonts/roboto-regular/roboto-regular-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-regular/roboto-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'robotothin';
-    src: url('../fonts/roboto-thin/roboto-thin-webfont.woff2') format('woff2'),
-         url('../fonts/roboto-thin/roboto-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'robotolight';
-    src: url('../fonts/Roboto-light/roboto-light-webfont.woff2') format('woff2'),
-         url('../fonts/Roboto-light/roboto-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'ralewayregular';
-    src: url('../fonts/raleway-regular/raleway-regular-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-regular/raleway-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
 
 /*=====================Bootstrap======================*/
 @media (min-width: 768px) {
@@ -203,7 +199,13 @@ p{
 }
 .left_Sec{
 	float:left;
+	/* background-color: #007bff; */
 }
+.left_Sec:nth-child(odd){
+	float:left;
+	background-color: #007bff;
+}
+
 .rightcontent{
 	/* padding:12px; */
 	/* margin-top:17px; */
