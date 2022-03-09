@@ -1,12 +1,35 @@
 @charset "utf-8";
 /*Profile CSS */
 
+
+
+/* Customizations*/
+/* 
+.left-pane,.rightcontent{
+    height: 200px;
+    margin: 10px;
+    
+}
+.left-pane{
+    float: right;   
+    width: 30%; 
+}
+.right-pane{
+    float: left;    
+    margin-left: -200px;
+    position: absolute;
+}
+
+.section{
+    height: 100%;
+} */
 font-face {
     font-family: 'Source Sans Pro';
     font-weight: normal;
     font-style: normal;
 
 }
+/**/
 
 /* @font-face {
     font-family: 'robotoregular';
@@ -67,7 +90,6 @@ font-face {
 	}
 }
 
-
 /*===========Header CSS================*/
 .body{
     align-self: center;
@@ -116,7 +138,8 @@ ul{
     float: left;
 	margin-top: 72px;
     margin-bottom: 22px;
-	/* position:fixed; */
+    align-items: center;
+	position:fixed;
 	z-index:50000;
 	left:0px;
     background-color: white;
@@ -124,7 +147,8 @@ ul{
 }
 .profile_img{
 	margin:0 auto;
-	margin-top:22px;
+	margin-left:22px;
+    margin-top:22px;
 	margin-bottom:22px;
 }
 .profile_img
@@ -133,7 +157,7 @@ img{
 	margin:0 auto;
 	display:block;
 	border:4px solid #d8dce3;
-	border-radius:50%!important;
+	/* border-radius:50%!important; */
 }
 .profile_img
 h1{
@@ -198,6 +222,10 @@ h2{
     font-size: 22px;
 	font-weight:bold;
 }
+.font-size-val{
+    font-weight: 48px;
+    font-size: 48px;
+}
 .rightcontent
 h3{
 	font-family:'Source Sans Pro';
@@ -208,7 +236,7 @@ h3{
 .rightcontent
 p{
 	font-family:'Source Sans Pro','Open Sans';
-    font-size: 16px;
+    font-size: 20px;
 }
 .rightcontent ul li{
 	margin-top:17px;
@@ -263,6 +291,9 @@ p{
     color: white;
     padding-top: 7px;
 }
+.text-md-right{text-align:right!important}
+.text-primary{color:#007bff!important}
+.resume-date-text{margin-top: -100em;}
 .border_b{
 	border-bottom:4px solid #333333;
 	width:10%;
@@ -313,8 +344,6 @@ p{
 			text-align:center;
 			padding:8px;
 		}
-
-
 
 /* Style the active class, and buttons on mouse-over */
 .active, .btn:hover {

@@ -13,11 +13,13 @@
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <link rel="stylesheet" href="css/style1.css" />
-<link rel="stylesheet" href="css/animate.css" />
 <link rel="stylesheet" href="css/font-awesome.css" />
 <link rel="stylesheet" href="css/font-awesome.min.css" />
-<link href="css/stylish-portfolio.min.css" rel="stylesheet">
-<link rel="stylesheet" href="css/simple-lightbox.css" />
+
+<!-- <link rel="stylesheet" href="css/animate.css" />  -->
+<!-- <link rel="stylesheet" href="css/resume.min.css" /> -->
+<!-- <link href="css/stylish-portfolio.min.css" rel="stylesheet"> -->
+<!-- <link rel="stylesheet" href="css/simple-lightbox.css" /> -->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +30,8 @@
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
     </a>
+
+    <div id="left-pane" class = "left-pane">
     <nav id="sidebar-wrapper">
         <div class="navi_menu col-lg-12 col-xs-12 col-sm-12">
             <div class="profile_img col-lg-12 col-xs-12 col-sm-12">
@@ -54,6 +58,8 @@
             </div>
         </div>
     </nav>
+    </div>
+    <div id="rightpane" class="right-pane">
     <!--Nav Menu-->
     <div class="container">
         <div class="navi_menu col-lg-2 col-xs-12 col-sm-4 visible-lg">
@@ -88,23 +94,23 @@
         <div class="left_Sec">
             <section class="resume-section p-3 p-lg-5 d-flex d-column" id="home">
                 <div class="rightcontent col-lg-12 col-xs-12 col-sm-12" style=" margin-top:82px; margin-bottom:82px;">
-                    <h2>Hello!</h2><p style="color:red;">SITE UNDER CONSTRUCTION!!</p>
+                    <h1>Hello!</h1><p style="color:red;">SITE UNDER CONSTRUCTION!!</p>
                     <!-- <div class="border_b"></div> -->
-                    <p>I am a Postdoctoral scholar in the Department of Electrical and Computer Engineering Northwestern University, Evanston Illinois. I work in the Kamomoa
-                        Lab under the supervision of Professor <a href"https://josiahhester.com/">Josiah Hester</a>. I received
-                        my PhD in May 2020 from Lahore Univesity of Management Science LUMS Pakistan under the supervision of Professor <a href"https://web.lums.edu.pk/~alizai/">Muhammad Hamad Alizai</a>. My thesis was Fast and Energy-efficient Intermittent Computing.</p>
+                    <p class = "font-size-val">I am a Postdoctoral scholar in the Department of Electrical and Computer Engineering Northwestern University, Evanston Illinois. I work in the Kamomoa
+                        Lab under the supervision of Professor <a href="https://josiahhester.com/">Josiah Hester</a>. I received
+                        my PhD in May 2020 from Lahore Univesity of Management Science LUMS Pakistan under the supervision of Professor <a href="https://web.lums.edu.pk/~alizai/">Muhammad Hamad Alizai</a>. My thesis was Fast and Energy-efficient Intermittent Computing.</p>
 						
                         <!-- My thesis shows how novel techniques at the 
                         compiler, run-time, and hardware level can significantly impact the device’s efficiency when when running on ambient energy. -->
-                    <p>My research work focuses on providing system support for battery-less embedded devices, which will serve as a basic block in building a sustainable future for computing.
+                    <p class = "font-size-val" >My research work focuses on providing system support for battery-less embedded devices, which will serve as a basic block in building a sustainable future for computing.
                         I am also interested in systems that enable novices and hobbyists to develop applications for battery-less devices. In addition, I am broadly interested in wearable computing, mobile health, and low-power wireless sensors. MS from Lahore University of Management Sciences, Pakistan.</p>
                     
-					<a href"">[My CV]</a><a href"https://josiahhester.com/">[My Resume]</a><a href"https://scholar.google.com/citations?user=pnY2WLsAAAAJ&hl=en">[GoogleScholar]</a>
+					<p><a href="">[My CV]</a><a href="">[My Resume]</a><a href="https://scholar.google.com/citations?user=pnY2WLsAAAAJ&hl=en">[GoogleScholar]</a></p>
                     
 					<p> Contact:</p>
                     <div class="social-icons">
-                        <a href"clickable link here"><img src=""><i class="fa fa-google-plus-square"></i></a>
-                        <a href"clickable link here"><img src=""><i class="fa fa-twitter"></i></a>
+                        <a href="clickable link here"><img src=""><i class="fa fa-google-plus-square"></i></a>
+                        <a href="clickable link here"><img src=""><i class="fa fa-twitter"></i></a>
                     </div>
                     <!-- GoogleScholar, Twiiter, DBLP</p> -->
                 </div>
@@ -114,9 +120,9 @@
         </div>
         <!--left sec-->
         <div class="left_Sec">
-            <section id="news">
+            <section id="news" class="">
                 <div class="rightcontent" background-color = "black">
-                    <h1><i class="fa fa-newspaper-o"></i>News</h1>
+                    <i class="fa fa-newspaper-o" size="30px"><h1>News</h1></i>
                     <div class="border_b"></div>
                     <!-- <li><strong>Birthday:</strong> 1 May 1995</li> -->
                     <p class="news"><b>(Nov-2021)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper on smart face masks accepted in ubicomp</p>
@@ -129,8 +135,7 @@
                     <p class="news"><b>(Nov-2019)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Paper D2VFS got accepted in EWSN</p>
                     <p class="news"><b>(Jun-2019)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending in LCTES'19 in Pheonix, AZ</p>
                     <p class="news"><b>(Apr-2019)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Two papers got accepted in LCTES'19</p>
-                    <p class="news"><b>(Nov-2017)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>My team won the Intermittent Computing Hackathon at IDEA League Doctoral 
-                                                                                                                    School on Transiently-powered Computing held at TU Delft,The Netherland</p>
+                    <p class="news"><b>(Nov-2017)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>My team won the Intermittent Computing Hackathon at IDEA League Doctoral at TU Delft, The Netherland</p>
                     <p class="news"><b>(Nov-2017)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending IDEA League Doctoral School on Transiently-powered Computing held at TU Delft,The Netherland</p>
                     <p class="news"><b>(Aug-2017)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending Doctoral Colloquim RWTH Aachen</p>
                     <p class="news"><b>(Aug-2016)</b><i class="fa  fa-angle-right" style="margin-left: 10px;"></i>Attending Doctoral Colloquim RWTH Aachen</p>
@@ -140,15 +145,28 @@
             </section>
             <!--about-->
         </div>
+        
         <!--left sec-->
+        
+        <!-- Community Service
+        Peer Review
+        Oct. 2020 IEEE Transactions on Mobile Computing
+        July 2020 ACM Transactions on Sensor Networks
+        Oct. 2019 International Journal of Computer and Telecommunications Networking
+        Sept. 2019 IEEE International Conference on Parallel and Distributed Systems (ICPADS <p class="news"><b>(Nov-2019)</b> Best Paper Nominee for "Intermittent Computing with Dynamic Voltage and Frequency Scaling"</p>
+        -->
         <div class="left_Sec">
-            <section id="awards">
+            <section class="resume-section p-3 p-lg-5 d-flex d-column" background-color="#dddddd" id="awards">
                 <div class="rightcontent col-lg-12 col-xs-12 col-sm-12">
-                    <h1>Awards</h1>
+                    <h1>Awards & Grants</h1>
                     <div class="border_b"></div>
-                    <p class="news"><b>(Mar-2021)</b> Selection for prestigious Alexander Von Humboldt (AvH) Postdcotoral scholarship</p><span>March 2021</span>
-                    <p class="news"><b>(Nov-2019)</b> Best Paper Nominee for "Intermittent Computing with Dynamic Voltage and Frequency Scaling"</p>
-                    <p class="news"><b>(Jun-2013)</b> <p style="color:red;">Bronze Medal</p> (BS. Computer Science)</p>
+                    <p class="awards"><b>(2021)</b> Selection for prestigious Alexander Von Humboldt (AvH) Postdcotoral scholarship</p><span>March 2021</span>
+                    <p class="awards"><b>(2020)</b> National Data Center Travel Grant worth \$300 to attend EWSN, LUMS, Pakistan</p>
+                    <p class="awards"><b>(2019)</b> Student Travel Grant worth $1900 to attend LCTES, LUMS</p>
+                    <p class="awards"><b>(2018)</b> CPS Week Travel Grant worth $1000 to attend IPSN, CPS Week</p>
+                    <p class="awards"><b>(2017)</b> Travel Grant worth $1700 to attend Doctoral Colloquium at RWTH Aachen, DAAD, </p>
+                    <p class="awards"><b>(2016)</b> Travel Grant worth $1700 to attend Doctoral Colloquium at RWTH Aachen, DAAD, </p>
+                    <!-- <p class="awards"><b>(Nov-2019)</b> Best Paper Nominee for "Intermittent Computing with Dynamic Voltage and Frequency Scaling"</p> -->
                     <!-- <p class="news"><b>(Jun-2009)</b> Gold Medal: (High School. Computer Science)</p> -->
                     <!-- <div class="border_b"></div>
                     <p>Lorem Ipsumsince the 15ype specimen bo five ce leap into remaining. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
@@ -210,26 +228,27 @@
         </div>
         <!--left sec-->
         <div class="left_Sec">
-            <section id="edu">
+            <section class="resume-section p-3 p-lg-5 d-flex d-column" id="edu">
                 <div class="rightcontent col-lg-12 col-xs-12 col-sm-12">
-                    <h1>Education</h1>
+                    <h1 >Education</h1>
                     <div class="border_b"></div>
                     <div>
-                    <p><b>PhD Computer Science</b></p>
-                    <p>LUMS, Pakistan</p>
+                    <p><b>Ph.D-Computer Science</b></p>
+                    <p>Thesis: Fast and Energy-efficient Computing</p>
+                    <p>Advisor: Dr. Muhammad hamad Alizai</p>
+                    <p>LUMS- School of Science and Engineering, Pakistan</p>
                     
-                    <p><b>MS Computer Science</b></p>
-                    <p>LUMS, Pakistan</p>
+                    <p><b>M.S. Computer Science</b></p>
+                    <p>LUMS- School of Science and Engineering, Pakistan</p>
                 
-                    <p><b>BS Computer Science - Bronze Medal</b></p>
-                    <p>NUCES-FAST, Pakistan</p>
+                    <p><b>B.S. Computer Science </b><a style="color:red;">Bronze Medal</a></p>
+                    <p>National University of Computer and Emerging Sciences, Pakistan</p>
                 </div>
-
                 </div>
                 <!--portfolio text-->
             </section>
 
-            <section id="pubs">
+            <section class="resume-section p-3 p-lg-5 d-flex d-column" id="pubs">
                 <div class="rightcontent col-lg-12 col-xs-12 col-sm-12">
                     <h1>Selected Publications</h1>
                     <div class="border_b"></div>
@@ -253,7 +272,7 @@
                     <p><i style="font-style:italic;">Saad Ahmed</i>, Naveed Anwar Bhatti, Muhammad Hamad Alizai, Junaid Haroon Siddiqui, Luca Mottola</p>
                     <p>LCTES'19</p>
 
-                    <a href"https://scholar.google.com/citations?user=pnY2WLsAAAAJ&hl=en">[Full List of Publications]</a>
+                    <a href="https://scholar.google.com/citations?user=pnY2WLsAAAAJ&hl=en">[Full List of Publications]</a>
                     
                 </div>
 
@@ -264,6 +283,7 @@
         </div>
         <!--left sec-->
 
+    </div>
     </div>
     <!--container-->
 
