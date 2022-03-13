@@ -1,16 +1,40 @@
 @charset "utf-8";
 /*Profile CSS */
-
-
-
 /* Customizations*/
 font-face {
     font-family: 'Source Sans Pro';
     font-weight: normal;
     font-style: normal;
 }
+section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important; padding-left: 0%; margin-left: 0%; width:155%; height: 54em;}
 
-section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;max-width:75rem}
+.right-pane{
+	width: auto;
+}
+.bio-section{
+	width:91.5%; height: 54em;
+	margin-left: -50px;
+	word-wrap: normal;
+	align:justify;
+}
+
+#news.resume-section{
+	background-color: #ccc;
+}
+
+#awards.resume-section{
+	width: 30%;
+}
+#edu.resume-section{
+	width: 102%;
+	background-color: #ccc;
+}
+
+#pubs.resume-section{
+	width: 102%;
+}
+
+
 section.resume-section .resume-item .resume-date{min-width:none}
 
 @media (min-width: 48em) {
@@ -55,10 +79,6 @@ td:nth-child(even){
     clear: both;
   }
  */
-
-
-
-
 /**/
 
 /*=====================Bootstrap======================*/
@@ -72,7 +92,7 @@ td:nth-child(even){
 		padding-right:0px !important;
 	}
 	.container{
-		padding-right:0px !important;
+		padding-right:-100px !important;
 		padding-left:0px !important;
 	}
 	.left_Sec{
@@ -89,6 +109,10 @@ td:nth-child(even){
 /*===========Header CSS================*/
 .body{
     align-self: center;
+	/* width: 200%; */
+	/* margin-left: 1px; */
+	/* padding-left: 10px; */
+	/* background-color:#009688; */
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
 	min-height: 1px;
@@ -132,8 +156,8 @@ ul{
 }
 .navi_menu {
     float: left;
-	margin-top: 72px;
-    margin-bottom: 22px;
+	/* margin-top: 72px; */
+    /* margin-bottom: 22px; */
     align-items: center;
 	position:fixed;
 	z-index:50000;
@@ -203,7 +227,7 @@ p{
 }
 .left_Sec:nth-child(odd){
 	float:left;
-	background-color: #007bff;
+	/* background-color: #007bff; */
 }
 
 .rightcontent{
