@@ -6,34 +6,32 @@ font-face {
     font-weight: normal;
     font-style: normal;
 }
-section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important; padding-left: 0%; margin-left: 0%; width:155%; height: 54em;}
+section.resume-section
+{
+	padding-top:5rem!important;
+	padding-bottom:5rem!important; 
+	padding-left: 0%; 
+	margin-left: 0%; 
+	width:168%; 
+	height: 54em;
+}
+#awards.resume-section,#edu.resume-section,#pubs.resume-section,#misc.resume-section{
+	width: 110%;
+}
 
 .right-pane{
 	width: auto;
 }
 .bio-section{
-	width:91.5%; height: 54em;
+	width:110%; height: 54em;
 	margin-left: -50px;
 	word-wrap: normal;
 	align:justify;
 }
 
-#news.resume-section{
+#news.resume-section,#edu.resume-section,#misc.resume-section{
 	background-color: #ccc;
 }
-
-#awards.resume-section{
-	width: 30%;
-}
-#edu.resume-section{
-	width: 102%;
-	background-color: #ccc;
-}
-
-#pubs.resume-section{
-	width: 102%;
-}
-
 
 section.resume-section .resume-item .resume-date{min-width:none}
 
@@ -57,22 +55,25 @@ td:nth-child(even){
 	/* width: 100%; */
 	/* margin-left: 1em; */
 }
-.column-left{
-    float: left;
-    width: 80%;
-  }
-.column-right{
-    float: right;
-    width: 80%;
-}
+
 .news{
 	line-height: 0px;
 	font-size: medium;
 	font-weight: 300;
-	
+}
+.right-icon-size{
+	font-size: 24px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 /*   
-  /* Clear floats after the columns */
+  /* Clear floats after the columns 
 .row:after {
     content: "";
     display: table;
@@ -96,7 +97,8 @@ td:nth-child(even){
 		padding-left:0px !important;
 	}
 	.left_Sec{
-		margin-left:216px !important;
+		margin-left:350px !important;
+		padding-left: 10px;
 	}
 	.menu-toggle{
 		visibility:hidden !important;
@@ -109,7 +111,7 @@ td:nth-child(even){
 /*===========Header CSS================*/
 .body{
     align-self: center;
-	/* width: 200%; */
+	width: 100px;
 	/* margin-left: 1px; */
 	/* padding-left: 10px; */
 	/* background-color:#009688; */
@@ -126,12 +128,15 @@ ul{
 }
 .socialicns_header {
 	text-align:center;
-    margin-bottom: 12px;
-    margin-top: 9px;
+    /* margin-bottom: 12px; */
+    margin-top: -30px;
+	margin-left: 20px;
+	
 }
 .socialicns_header ul li {
     display: inline-block;
-	text-align:center;
+	height: 100px;
+	text-align: center;
     list-style: outside none none;
 }
 .socialicns_header ul li a {
@@ -168,7 +173,7 @@ ul{
 .profile_img{
 	margin:0 auto;
 	margin-left:22px;
-    margin-top:22px;
+    margin-top:50px;
 	margin-bottom:22px;
 }
 .profile_img
@@ -248,10 +253,23 @@ h2{
     font-size: 22px;
 	font-weight:bold;
 }
-.font-size-val{
-    font-weight: 48px;
-    font-size: 48px;
+.title{
+    /* font-weight: 20px; */
+	font-weight: 450;
+	font-size: 21px;
 }
+
+.subtitle{
+    /* font-weight: 20px; */
+    font-size: 20px;
+	font-weight:300;
+}
+.text_info{
+    font-weight: 600;
+    font-size: 21px;
+}
+
+
 .rightcontent
 h3{
 	font-family:'Source Sans Pro';
@@ -343,7 +361,6 @@ p{
 .container .gallery a img {
             float: left;
             height: auto;
-            
             -webkit-transition: -webkit-transform .15s ease;
             -moz-transition: -moz-transform .15s ease;
             -o-transition: -o-transform .15s ease;
