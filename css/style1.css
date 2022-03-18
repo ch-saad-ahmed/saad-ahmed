@@ -12,11 +12,38 @@ section.resume-section
 	padding-bottom:5rem!important; 
 	padding-left: 0%; 
 	margin-left: 0%; 
-	width:168%; 
+	width:164.5%; 
 	height: 54em;
 }
-#awards.resume-section,#edu.resume-section,#pubs.resume-section,#misc.resume-section{
+#news.resume-sectio,#awards.resume-section,#edu.resume-section,#pubs.resume-section,#misc.resume-section{
 	width: 110%;
+}
+
+.row {
+	display: flex; 
+	/* flex-direction: row; */
+  }
+
+.col {
+	width: 120%;
+	padding: 1em;
+	/* border: solid; */
+  }
+.col-news {
+	width: 280%;
+	padding: -0.5em;
+	/* border: solid; */
+  }
+  
+.rcol {
+	float: right;
+	padding-top: 1em;
+	width: 30%;
+  }
+.rcol-news {
+	float: right;
+	padding-top: 1em;
+	width: 30%;
 }
 
 .right-pane{
@@ -26,7 +53,7 @@ section.resume-section
 	width:110%; height: 54em;
 	margin-left: -50px;
 	word-wrap: normal;
-	align:justify;
+	align: justify;
 }
 
 #news.resume-section,#edu.resume-section,#misc.resume-section{
@@ -104,7 +131,7 @@ td:nth-child(even){
 		visibility:hidden !important;
 	}
 	.navi_menu{
-		width:22% !important
+		/* width:22% !important */
 	}
 }
 
@@ -168,6 +195,7 @@ ul{
 	z-index:50000;
 	left:0px;
     background-color: white;
+	width:300px; 
 
 }
 .profile_img{
@@ -399,8 +427,10 @@ a img{
 }
 .border3{
 	border-right:3px solid #ccc !important;
-	height:490px !important;
-	margin-top:49px !important;
+	height:585px !important;
+	width:30px;
+	margin-top:50px !important;
+	margin-left:90% !important;
 }
 
 
