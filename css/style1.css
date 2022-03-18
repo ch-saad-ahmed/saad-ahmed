@@ -15,8 +15,12 @@ section.resume-section
 	width:164.5%; 
 	height: 54em;
 }
-#news.resume-sectio,#awards.resume-section,#edu.resume-section,#pubs.resume-section,#misc.resume-section{
+#news.resume-section,#awards.resume-section,#edu.resume-section,#pubs.resume-section,#misc.resume-section{
 	width: 110%;
+}
+
+#pubs.resume-section{
+	line-height: 1.6em;
 }
 
 .row {
@@ -154,29 +158,31 @@ ul{
 	margin:0;
 }
 .socialicns_header {
-	text-align:center;
+	text-align:left;
     /* margin-bottom: 12px; */
-    margin-top: -30px;
-	margin-left: 20px;
+    margin-top: 0px;
+	margin-left: -20px;
 	
 }
 .socialicns_header ul li {
+	color: #040b14;
     display: inline-block;
 	height: 100px;
 	text-align: center;
-    list-style: outside none none;
+    /* list-style: outside none none; */
 }
 .socialicns_header ul li a {
     padding: 5px;
-	text-align:center;
+	text-align:left;
+	color: black;
 }
 .fa.fa-facebook-square {
     color: #040b14;
     font-size: 18px;
 }
 .fa.fa-twitter {
-    color: #040b14;
-    font-size: 18px;
+    /* color: #040b14; */
+    /* font-size: 18px; */
 }
 .fa.fa-google-plus-square {
     color: #040b14;
