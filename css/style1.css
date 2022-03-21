@@ -74,11 +74,13 @@ section.resume-section .resume-item .resume-date{min-width:none}
   .col-news {
 	width: 280%;
 	padding: -0.5em;
+	padding-left: -2.5em;
 	/* border: solid; */
   }
   .rcol-news {
 	float: right;
 	padding-top: 0.8em;
+	padding-left: 1.4em;
 	width: 30%;
 }
 
