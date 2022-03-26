@@ -273,21 +273,22 @@ h1{
 }
 .verticalmenu {
     float: left;
-    margin-bottom: 55px;
-    margin-top: 12px;
+    margin-bottom:45px;
+    margin-top: 0px;
 	
 }
 .verticalmenu ul li {
     list-style: none;
 	padding-left:28px;
 	text-align:center;
-    line-height: 52px;
+    line-height: 45px;
 }
 .verticalmenu ul li a {
     color: #040b14;
     text-decoration: none;
     font-family: 'Source Sans Pro';
     font-size: 16px;
+
 }
 .verticalmenu ul li a:hover{
 	color:#1f8c9a !important;
@@ -475,6 +476,7 @@ p{
   border: 1px solid #040b14;
   color: black;
 }
+
 .gallery
 a img{
 	margin-bottom:12px !important;
