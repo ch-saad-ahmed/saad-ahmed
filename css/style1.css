@@ -13,10 +13,11 @@ section.resume-section
 	padding-left: 0%; 
 	margin-left: 0%; 
 	height: 46em;
+	width: 1020px;
 	
 }
 #news.resume-section,#awards.resume-section,#edu.resume-section,#pubs.resume-section,#misc.resume-section,#com.resume-section{
-	width: 130%;
+	/* width: 600px; */
 }
 
 #home.bio-section,#awards.resume-section,#pubs.resume-section,#misc.resume-section{
@@ -24,7 +25,7 @@ section.resume-section
 	border-left:3px solid #D9DCE3;
 }
 #awards.resume-section{
-	width: 141%;
+	/* width: 600px; */
 }
 
 #pubs.resume-section{
@@ -36,7 +37,8 @@ section.resume-section
 	font-weight: bold;
 }
 .bio-section{
-	width:120%; height: 45em;
+	/* width:300px; */
+	height: 45em;
 	/* margin-left: -50px; */
 	word-wrap: normal;
 	/* align: justify; */
@@ -48,10 +50,10 @@ section.resume-section
 	border:none;
 }
 #edu.resume-section{
-	width: 160%;
+	/* width: 160%; */
 }
 #com.resume-section{
-	width: 140%;
+	/* width: 140%; */
 }
 
 section.resume-section .resume-item .resume-date{min-width:none}
