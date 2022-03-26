@@ -58,6 +58,7 @@ section.resume-section
 section.resume-section .resume-item .resume-date{min-width:none}
 .row {
 	display: flex; 
+
 	/* flex-direction: row; */
   }
  .col {
