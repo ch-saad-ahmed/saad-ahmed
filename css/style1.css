@@ -85,12 +85,13 @@ section.resume-section
 	line-height: 0.3em;
 	padding: 0%;
 	margin: 0%;
+	margin-left: -15px;
 	/* flex-direction: row; */
   }
   .col-news {
 	width: 280%;
-	padding: -0.5em;
-	padding-left: -2.5em;
+	/* padding: -0.5em; */
+	/* padding-left: -2.5em; */
 	/* border: solid; */
   }
   .rcol-news {
