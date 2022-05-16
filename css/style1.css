@@ -133,7 +133,7 @@ td:nth-child(even){
 .news{
 	line-height: 20px;
 	font-size: medium;
-	font-weight: 300;
+	/* font-weight: 300; */
 }
 .right-icon-size{
 	font-size: 24px;
@@ -251,8 +251,8 @@ td:nth-child(even){
 	.navi_menu{
 		width:22% !important
 		/* height: 100%;!important */
-	}
-} */
+	/* }
+}  */
 
 /*===========Header CSS================*/
 /* .WebContainer{
@@ -435,8 +435,8 @@ h2{
 
 .subtitle{
     /* font-weight: 20px; */
-    font-size: 20px;
-	font-weight:350;
+    font-size: 16px;
+	/* font-weight:400; */
 }
 .text_info{
     font-weight: 600;
