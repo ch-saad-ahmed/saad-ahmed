@@ -76,7 +76,7 @@ section.resume-section
   
 .rcol {
 	float: right;
-	/* align-self: center; */
+	align-self: center;
 	padding-top: 1em;
 	font-size: normal;
 	width: 30%;
@@ -286,7 +286,7 @@ ul{
 .socialicns_header {
 	text-align:left;
     /* margin-bottom: 12px; */
-    margin-top: 0px;
+    margin-top: -10px;
 	margin-left: -20px;
 	
 }
@@ -391,7 +391,7 @@ h1{
 }
 .addres_p{
 	text-align:center;
-	margin-top:-0px;
+	margin-top:-10px;
 	margin-bottom:152px;
 	margin-left: 14px;
 }
